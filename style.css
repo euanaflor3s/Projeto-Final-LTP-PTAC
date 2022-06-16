@@ -1,0 +1,144 @@
+html, body {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'raleway';
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 70px;
+  background-color: white;
+  color: #1E90FF;
+}
+
+.logo{
+  font-weight: bold;
+  font-size: 30px;
+  color:#1E90FF;
+}
+
+.links{
+  width: 20%;
+}
+
+.links ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.links ul li{
+  padding: 5px;
+  transition: 500ms;
+}
+
+.links ul li:hover{
+  cursor: pointer;
+  background-color: #1E90FF;
+  color: white;
+  transition: 500ms;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 0 100px;
+  background-color: white;
+}
+
+.noticiaDestaque{
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0 5px 0;
+}
+
+.noticiaDestaque h1{
+  color: #1E90FF;
+}
+
+.noticiaDestaque p{
+  font-weight: 600;
+  color: black;
+  width: 90%;
+}
+
+.destaqueTitulo{
+  text-decoration: none;
+  color: #1E90FF;
+}
+
+.destaqueTitle{
+  background-color: #1E90FF;
+  color: white;
+  width: 100%;
+  padding: 30px 0;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+
+.imagem{
+width: 500px; 
+}
+
+.noticia{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid#1E90FF;
+}
+
+.noticia h1{
+  color: #1E90FF;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.noticia p{
+  color: black;
+  padding: 0 30px;
+  font-size: 26px; 
+}
+
+.noticiasTitle{
+  color: #1E90FF;
+  width: 100%;
+  letter-spacing: 1px;
+  font-size: 50px; 
+}
+
+footer{
+  background-color:#1E90FF;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+}
+
+.main2 div{
+display: flex;
+flex-wrap:wrap;
+justify-content: space-between;
+}
+
+.noticia{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
